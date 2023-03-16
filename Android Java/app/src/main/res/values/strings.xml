@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">vekonharcama</string>
+    <string-array name="gidercesiti">
+        <item>GİDER ÇEŞİTİ</item>
+        <item>MALZEME</item>
+        <item>AKARYAKIT</item>
+        <item>YOL</item>
+        <item>OTEL</item>
+        <item>YEMEK</item>
+        <item>HABERLEŞME</item>
+        <item>SAĞLIK</item>
+        <item>SAİR</item>
+        <item>BELGESİZ</item>
+    </string-array>
+</resources>

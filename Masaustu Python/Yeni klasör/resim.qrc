@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="icon">
+    <file>exit.png</file>
+    <file>note.png</file>
+    <file>excel.png</file>
+    <file>MERT.PNG</file>
+  </qresource>
+</RCC>

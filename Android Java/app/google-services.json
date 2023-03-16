@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "845490734164",
+    "project_id": "vkharcama",
+    "storage_bucket": "vkharcama.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:845490734164:android:506c01d7f2c8f8e89ed9c1",
+        "android_client_info": {
+          "package_name": "com.mert.vekonharcama"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "845490734164-6tipi8u9vlni0ta61458g9kqs8tu7jss.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDA_-tbLYGbKCArOIKA0KfBflpbF0u8ss0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "845490734164-6tipi8u9vlni0ta61458g9kqs8tu7jss.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

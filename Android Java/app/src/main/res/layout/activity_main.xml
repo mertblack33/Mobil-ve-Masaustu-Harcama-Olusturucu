@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/vekon"
+    >
+
+    <EditText
+        android:id="@+id/eposta"
+        android:layout_width="263dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="64dp"
+        android:background="@drawable/botton1"
+        android:backgroundTint="#FFFEFE"
+        android:ems="10"
+        android:hint="E Posta Adresi"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center"
+        android:textColor="#FF0000"
+        android:textColorHint="#FF0000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/pass"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="263dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="168dp"
+        android:background="@drawable/botton1"
+        android:ems="10"
+        android:hint="Şifre"
+        android:inputType="numberPassword"
+        android:textAlignment="center"
+        android:textColor="#FF0000"
+        android:textColorHint="#F80000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/eposta"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/eposta" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="65dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/g"
+        android:onClick="giris"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/pass"
+        app:layout_constraintTop_toBottomOf="@+id/pass"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="61dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/kayit"
+        android:onClick="kayit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/pass"
+        app:layout_constraintTop_toBottomOf="@+id/pass"
+        app:layout_constraintVertical_bias="0.078" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
